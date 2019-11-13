@@ -5,7 +5,11 @@ const Footer = () => (
   <footer className="footer text-center">
     <span>
       UCDavis Coding Bootcamp © 2019 Copyright:&nbsp;
-      <a href="" target="_blank" rel="noopener noreferrer">
+      <a
+        href="https://github.com/Bcalderon400/clicky-game"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Brian Calderon
       </a>
     </span>
