@@ -14,9 +14,9 @@ const Navbar = props => (
       <div
         className={
           "col-md-4 " +
-          (props.gameStatus == "2"
+          (props.gameStatus === "2"
             ? " text-danger"
-            : props.gameStatus == "1"
+            : props.gameStatus === "1"
             ? " text-success"
             : " text-info")
         }
