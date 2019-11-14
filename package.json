@@ -9,7 +9,7 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "homepage": "https://bcalderon400.github.io/clicky-game/",
+    "homepage": "https://bcalderon400.github.io/clicky-game",
     "start": "react-scripts start",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -b master -d build",
