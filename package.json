@@ -15,11 +15,10 @@
   "scripts": {
     "homepage": "https://bcalderon400.github.io/clicky-game",
     "start": "react-scripts start",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
